@@ -18,7 +18,7 @@ export function MccLogo({
       width={width}
       height={height}
       priority={priority}
-      className={className}
+      className={`w-auto ${className}`}
     />
   )
 }
