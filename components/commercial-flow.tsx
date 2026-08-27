@@ -1,11 +1,31 @@
 import { Reveal } from './reveal'
 
 const stages = [
-  { n: '01', title: 'Understand', body: 'Understand the requirement in full — what is needed, why, and by when.' },
-  { n: '02', title: 'Identify', body: 'Identify the right opportunity and the parties best placed to deliver.' },
-  { n: '03', title: 'Connect', body: 'Bring the right people, products and resources together.' },
-  { n: '04', title: 'Execute', body: 'Move the transaction forward efficiently and transparently.' },
-  { n: '05', title: 'Build', body: 'Turn individual transactions into lasting, repeatable relationships.' },
+  {
+    n: '01',
+    title: 'Understand',
+    body: 'Understand the requirement in full — what is needed, why, and by when.',
+  },
+  {
+    n: '02',
+    title: 'Identify',
+    body: 'Identify the right opportunity and the parties best placed to deliver.',
+  },
+  {
+    n: '03',
+    title: 'Connect',
+    body: 'Bring the right people, products, resources and capabilities together.',
+  },
+  {
+    n: '04',
+    title: 'Execute',
+    body: 'Move the transaction forward efficiently and transparently, coordinating transportation and logistics where required.',
+  },
+  {
+    n: '05',
+    title: 'Build',
+    body: 'Turn individual transactions into lasting, repeatable relationships.',
+  },
 ]
 
 export function CommercialFlow() {
@@ -15,10 +35,12 @@ export function CommercialFlow() {
         <Reveal className="max-w-3xl">
           <div className="flex items-center gap-3">
             <span className="h-3 w-3 rounded-full bg-mcc-red" />
+
             <p className="text-xs font-bold uppercase tracking-[0.28em] text-mcc-red">
               The Approach
             </p>
           </div>
+
           <h2 className="mt-6 text-balance font-display text-4xl font-extrabold leading-[1.02] tracking-tight text-navy md:text-5xl lg:text-6xl">
             From requirement to relationship.
           </h2>
@@ -33,11 +55,13 @@ export function CommercialFlow() {
                     {s.n}
                   </span>
                 </div>
+
                 <div className="md:col-span-3">
                   <h3 className="font-display text-2xl font-extrabold tracking-tight text-navy md:text-3xl">
                     {s.title}
                   </h3>
                 </div>
+
                 <div className="md:col-span-6">
                   <p className="max-w-md text-pretty text-lg leading-relaxed text-muted-foreground">
                     {s.body}
