@@ -13,6 +13,7 @@ export function About() {
                   Who We Are
                 </p>
               </div>
+
               <h2 className="mt-6 text-balance font-display text-4xl font-extrabold leading-[1.02] tracking-tight text-navy md:text-5xl lg:text-6xl">
                 A commercial house built to connect markets.
               </h2>
@@ -27,12 +28,16 @@ export function About() {
                   commercial enterprise rooted in Miryalaguda, Telangana. We
                   operate at the meeting point of requirement and opportunity —
                   identifying where value can be created and bringing the right
-                  people, products and resources together.
+                  people, products, resources and transportation capabilities
+                  together.
                 </p>
+
                 <p>
                   Rather than confining ourselves to a single category, MCC
-                  stays deliberately versatile. That flexibility, paired with a
-                  deep understanding of local and regional markets, lets us move
+                  stays deliberately versatile, operating across trading,
+                  logistics and transportation, commercial opportunities and
+                  diversified ventures. That flexibility, paired with a deep
+                  understanding of local and regional markets, lets us move
                   quickly on genuine commercial opportunities.
                 </p>
               </div>
@@ -49,6 +54,7 @@ export function About() {
                     <p className="font-display text-lg font-extrabold text-mcc-blue">
                       {c.k}
                     </p>
+
                     <p className="mt-2 text-sm leading-snug text-muted-foreground">
                       {c.v}
                     </p>
