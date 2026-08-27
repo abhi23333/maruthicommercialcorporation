@@ -8,9 +8,13 @@ export function Hero() {
       className="relative flex min-h-[100svh] items-center overflow-hidden bg-white pt-28 pb-20 md:pt-32"
     >
       {/* Background: brand swoosh field */}
-      <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
+      <div
+        className="pointer-events-none absolute inset-0 overflow-hidden"
+        aria-hidden
+      >
         <div className="absolute -right-40 -top-40 h-[42rem] w-[42rem] rounded-full bg-mcc-blue/[0.06] blur-3xl" />
         <div className="absolute -bottom-52 -left-40 h-[36rem] w-[36rem] rounded-full bg-mcc-red/[0.06] blur-3xl" />
+
         <svg
           className="absolute inset-x-0 bottom-0 h-[45vh] w-full"
           viewBox="0 0 1440 600"
@@ -36,7 +40,6 @@ export function Hero() {
 
       <div className="relative mx-auto w-full max-w-7xl px-5 md:px-8">
         <div className="max-w-4xl">
-
           <Reveal delay={90}>
             <h1 className="mt-8 font-display text-[3.15rem] font-extrabold leading-[0.98] tracking-[-0.02em] text-navy sm:text-6xl md:text-7xl lg:text-[5.75rem]">
               Building{' '}
@@ -53,9 +56,9 @@ export function Hero() {
           <Reveal delay={180}>
             <p className="mt-12 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
               Maruthi Commercial Corporation is a diversified commercial
-              enterprise built on trust, market insight and relationships — we
-              understand what the market needs and bring the right parties
-              together to make it happen.
+              enterprise built on trust, market insight and relationships —
+              connecting people, products and opportunities across trading,
+              logistics, transportation and diverse commercial sectors.
             </p>
           </Reveal>
 
@@ -67,6 +70,7 @@ export function Hero() {
               >
                 Explore Our Business
               </a>
+
               <a
                 href="#promoters"
                 className="inline-flex items-center justify-center rounded-full border-2 border-navy/15 px-8 py-4 text-base font-bold text-navy transition-colors hover:border-mcc-blue hover:text-mcc-blue"
