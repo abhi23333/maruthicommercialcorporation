@@ -15,9 +15,9 @@ export function SiteFooter() {
         <div className="flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-4">
             <MccLogo
-              width={135}
-              height={80}
-              className="h-16 w-auto"
+              width={160}
+              height={94}
+              className="h-20 w-auto"
             />
           </div>
 
