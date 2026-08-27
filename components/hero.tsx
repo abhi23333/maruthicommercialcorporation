@@ -36,14 +36,6 @@ export function Hero() {
 
       <div className="relative mx-auto w-full max-w-7xl px-5 md:px-8">
         <div className="max-w-4xl">
-          <Reveal>
-            <div className="inline-flex items-center gap-3 rounded-full border border-border bg-cloud/60 px-4 py-2">
-              <span className="h-2 w-2 rounded-full bg-mcc-red" />
-              <span className="text-xs font-bold uppercase tracking-[0.22em] text-navy/70">
-                Miryalaguda &middot; Telangana &middot; India
-              </span>
-            </div>
-          </Reveal>
 
           <Reveal delay={90}>
             <h1 className="mt-8 font-display text-[3.15rem] font-extrabold leading-[0.98] tracking-[-0.02em] text-navy sm:text-6xl md:text-7xl lg:text-[5.75rem]">
