@@ -15,7 +15,7 @@ const principles = [
   },
   {
     title: 'Execution',
-    body: 'A practical, responsive approach that carries every deal from requirement to completion.',
+    body: 'A practical, responsive approach that carries every transaction from requirement to completion, including the coordination and movement of goods where logistics is involved.',
   },
 ]
 
@@ -30,6 +30,7 @@ export function WhyMcc() {
               Why MCC
             </p>
           </div>
+
           <h2 className="mt-6 text-balance font-display text-4xl font-extrabold leading-[1.02] tracking-tight text-navy md:text-5xl lg:text-6xl">
             Built on trust. Driven by opportunity.
           </h2>
@@ -42,9 +43,11 @@ export function WhyMcc() {
                 <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-mcc-red to-mcc-blue font-display text-lg font-extrabold text-white">
                   {String(i + 1)}
                 </span>
+
                 <h3 className="mt-6 font-display text-xl font-extrabold tracking-tight text-navy">
                   {p.title}
                 </h3>
+
                 <p className="mt-3 text-pretty text-sm leading-relaxed text-muted-foreground">
                   {p.body}
                 </p>
