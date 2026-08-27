@@ -32,17 +32,21 @@ export function SiteNav() {
     >
       <nav
         className={`mx-auto flex max-w-7xl items-center justify-between px-5 transition-all duration-300 md:px-8 ${
-          scrolled ? 'h-[74px]' : 'h-[92px]'
+          scrolled ? 'h-[74px]' : 'h-[96px]'
         }`}
         aria-label="Primary"
       >
-        <a href="#home" className="flex items-center" aria-label="Maruthi Commercial Corporation — home">
+        <a
+          href="#home"
+          className="flex items-center"
+          aria-label="Maruthi Commercial Corporation — home"
+        >
           <MccLogo
             priority
-            width={220}
-            height={130}
+            width={250}
+            height={148}
             className={`w-auto transition-all duration-300 ${
-              scrolled ? 'h-12 md:h-14' : 'h-14 md:h-[68px]'
+              scrolled ? 'h-14 md:h-16' : 'h-16 md:h-[78px]'
             }`}
           />
         </a>
@@ -68,6 +72,7 @@ export function SiteNav() {
           >
             Connect With Us
           </a>
+
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
@@ -105,6 +110,7 @@ export function SiteNav() {
                 </a>
               </li>
             ))}
+
             <li>
               <a
                 href="#contact"
