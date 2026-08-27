@@ -21,14 +21,19 @@ const SITE_URL = 'https://maruthicommercial.com'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+
   title: {
     default: 'Maruthi Commercial Corporation | MCC',
     template: '%s | Maruthi Commercial Corporation',
   },
+
   description:
-    'Maruthi Commercial Corporation (MCC) is a diversified commercial enterprise from Miryalaguda, Telangana — building trusted connections and moving opportunities across markets.',
+    'Maruthi Commercial Corporation (MCC) is a diversified commercial enterprise from Miryalaguda, Telangana, operating across trading, logistics, transportation, commercial opportunities and strategic partnerships.',
+
   applicationName: 'Maruthi Commercial Corporation',
+
   generator: 'v0.app',
+
   keywords: [
     'Maruthi Commercial Corporation',
     'MCC',
@@ -37,16 +42,23 @@ export const metadata: Metadata = {
     'Telangana',
     'commercial enterprise',
     'trading company',
+    'logistics',
+    'transportation',
+    'goods transportation',
+    'commercial logistics',
     'business connections',
     'Kukkadapu Maruthi',
     'Kukkadapu Abhivadan',
   ],
+
   authors: [{ name: 'Maruthi Commercial Corporation' }],
   creator: 'Maruthi Commercial Corporation',
   publisher: 'Maruthi Commercial Corporation',
+
   alternates: {
     canonical: '/',
   },
+
   robots: {
     index: true,
     follow: true,
@@ -58,6 +70,7 @@ export const metadata: Metadata = {
       'max-video-preview': -1,
     },
   },
+
   // To update the favicon after hosting, simply replace the files in /public
   // (icon.png / apple-icon) — no code change required.
   icons: {
@@ -68,14 +81,16 @@ export const metadata: Metadata = {
     apple: [{ url: '/icon.png' }],
     shortcut: ['/icon.png'],
   },
+
   openGraph: {
     title: 'Maruthi Commercial Corporation | MCC',
     description:
-      'Building Connections. Moving Opportunities. A diversified commercial enterprise from Miryalaguda, Telangana.',
+      'Building Connections. Moving Opportunities. A diversified commercial enterprise from Miryalaguda, Telangana, operating across trading, logistics, transportation and commercial ventures.',
     url: SITE_URL,
     siteName: 'Maruthi Commercial Corporation',
     locale: 'en_IN',
     type: 'website',
+
     images: [
       {
         url: '/icon.png',
@@ -85,13 +100,15 @@ export const metadata: Metadata = {
       },
     ],
   },
+
   twitter: {
     card: 'summary',
     title: 'Maruthi Commercial Corporation | MCC',
     description:
-      'Building Connections. Moving Opportunities. A diversified commercial enterprise from Miryalaguda, Telangana.',
+      'Building Connections. Moving Opportunities. A diversified commercial enterprise from Miryalaguda, Telangana, operating across trading, logistics, transportation and commercial ventures.',
     images: ['/icon.png'],
   },
+
   category: 'business',
 }
 
@@ -105,17 +122,26 @@ export const viewport: Viewport = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
+
   name: 'Maruthi Commercial Corporation',
   alternateName: 'MCC',
   url: SITE_URL,
   logo: `${SITE_URL}/icon.png`,
   slogan: 'Building Connections. Moving Opportunities.',
+
+  description:
+    'Maruthi Commercial Corporation is a diversified commercial enterprise operating across trading, logistics, transportation, commercial opportunities and strategic partnerships.',
+
   address: {
     '@type': 'PostalAddress',
+    streetAddress:
+      'Kukkadapu Enclave, Housing Board Colony',
     addressLocality: 'Miryalaguda',
+    postalCode: '508207',
     addressRegion: 'Telangana',
     addressCountry: 'IN',
   },
+
   contactPoint: [
     {
       '@type': 'ContactPoint',
@@ -146,8 +172,11 @@ export default function RootLayout({
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+
         <Loader />
+
         {children}
+
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
