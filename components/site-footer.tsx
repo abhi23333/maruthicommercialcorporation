@@ -14,8 +14,13 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-5 py-16 md:px-10">
         <div className="flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-4">
-            <MccLogo width={120} height={71} className="h-12 w-auto" />
+            <MccLogo
+              width={135}
+              height={80}
+              className="h-16 w-auto"
+            />
           </div>
+
           <nav aria-label="Footer">
             <ul className="flex flex-wrap gap-x-8 gap-y-3">
               {nav.map((n) => (
@@ -37,6 +42,7 @@ export function SiteFooter() {
             &copy; {new Date().getFullYear()} Maruthi Commercial Corporation.
             All rights reserved.
           </p>
+
           <p className="font-medium tracking-wide text-navy/50">
             Building Connections. Moving Opportunities.
           </p>
