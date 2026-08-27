@@ -36,7 +36,7 @@ export function Contact() {
                     Location
                   </dt>
                   <dd className="text-lg font-medium text-navy sm:text-right">
-                    Miryalaguda, Telangana, India
+                    Kukkadapu Enclave, Housing Board Colony, Miryalaguda - 508207, Nalgonda, Telangana
                   </dd>
                 </div>
                 <div className="flex flex-col gap-1 py-6 sm:flex-row sm:items-baseline sm:justify-between">
