@@ -10,9 +10,11 @@ export function Contact() {
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-mcc-red">
                 Connect With Us
               </p>
+
               <h2 className="mt-6 text-balance font-serif text-4xl font-light leading-tight tracking-tight text-navy md:text-6xl">
                 Let&apos;s Build the Next Opportunity.
               </h2>
+
               <p className="mt-8 max-w-md text-pretty text-lg leading-relaxed text-muted-foreground">
                 For commercial enquiries, partnerships and opportunities, reach
                 out to Maruthi Commercial Corporation.
@@ -23,26 +25,37 @@ export function Contact() {
           <div className="lg:col-span-6 lg:pt-4">
             <Reveal delay={120}>
               <dl className="divide-y divide-border border-y border-border">
-                <div className="flex flex-col gap-1 py-6 sm:flex-row sm:items-baseline sm:justify-between">
+
+                {/* Enterprise */}
+                <div className="grid gap-2 py-6 sm:grid-cols-[120px_1fr] sm:gap-8">
                   <dt className="text-xs font-semibold uppercase tracking-[0.2em] text-steel">
                     Enterprise
                   </dt>
+
                   <dd className="text-lg font-medium text-navy sm:text-right">
                     Maruthi Commercial Corporation
                   </dd>
                 </div>
-                <div className="flex flex-col gap-1 py-6 sm:flex-row sm:items-baseline sm:justify-between">
+
+                {/* Location */}
+                <div className="grid gap-2 py-6 sm:grid-cols-[120px_1fr] sm:gap-8">
                   <dt className="text-xs font-semibold uppercase tracking-[0.2em] text-steel">
                     Location
                   </dt>
-                  <dd className="text-lg font-medium text-navy sm:text-right">
-                    Kukkadapu Enclave, Housing Board Colony, Miryalaguda - 508207, Nalgonda, Telangana
+
+                  <dd className="text-lg font-medium leading-relaxed text-navy sm:text-right">
+                    Kukkadapu Enclave, Housing Board Colony,
+                    <br className="hidden sm:block" />
+                    Miryalaguda - 508207, Nalgonda, Telangana
                   </dd>
                 </div>
-                <div className="flex flex-col gap-1 py-6 sm:flex-row sm:items-baseline sm:justify-between">
+
+                {/* Email */}
+                <div className="grid gap-2 py-6 sm:grid-cols-[120px_1fr] sm:gap-8">
                   <dt className="text-xs font-semibold uppercase tracking-[0.2em] text-steel">
                     Email
                   </dt>
+
                   <dd className="sm:text-right">
                     <a
                       href="mailto:info@maruthicommercial.com"
@@ -52,6 +65,30 @@ export function Contact() {
                     </a>
                   </dd>
                 </div>
+
+                {/* Phone */}
+                <div className="grid gap-2 py-6 sm:grid-cols-[120px_1fr] sm:gap-8">
+                  <dt className="text-xs font-semibold uppercase tracking-[0.2em] text-steel">
+                    Contact
+                  </dt>
+
+                  <dd className="flex flex-col gap-1 text-lg font-medium sm:items-end">
+                    <a
+                      href="tel:+919490355713"
+                      className="text-mcc-blue underline-offset-4 transition hover:underline"
+                    >
+                      +91 94903 55713
+                    </a>
+
+                    <a
+                      href="tel:+919390221318"
+                      className="text-mcc-blue underline-offset-4 transition hover:underline"
+                    >
+                      +91 93902 21318
+                    </a>
+                  </dd>
+                </div>
+
               </dl>
 
               <a
