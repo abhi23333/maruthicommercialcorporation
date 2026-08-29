@@ -17,7 +17,7 @@ export function Contact() {
 
               <p className="mt-8 max-w-md text-pretty text-lg leading-relaxed text-muted-foreground">
                 For commercial enquiries, partnerships and opportunities, reach
-                out to Maruthi Commercial Corporation.
+                out to Maaruthi Commercial Corporation.
               </p>
             </Reveal>
           </div>
@@ -33,7 +33,7 @@ export function Contact() {
                   </dt>
 
                   <dd className="text-lg font-medium text-navy sm:text-right">
-                    Maruthi Commercial Corporation
+                    Maaruthi Commercial Corporation
                   </dd>
                 </div>
 
@@ -58,10 +58,10 @@ export function Contact() {
 
                   <dd className="sm:text-right">
                     <a
-                      href="mailto:info@maruthicommercial.com"
+                      href="info@maaruthicommercialcorporation.com"
                       className="text-lg font-medium text-mcc-blue underline-offset-4 transition hover:underline"
                     >
-                      info@maruthicommercial.com
+                      info@maaruthicommercialcorporation.com
                     </a>
                   </dd>
                 </div>
