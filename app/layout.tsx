@@ -23,21 +23,21 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
 
   title: {
-    default: 'Maruthi Commercial Corporation | MCC',
-    template: '%s | Maruthi Commercial Corporation',
+    default: 'Maaruthi Commercial Corporation | MCC',
+    template: '%s | Maaruthi Commercial Corporation',
   },
 
   description:
-    'Maruthi Commercial Corporation (MCC) is a diversified commercial enterprise from Miryalaguda, Telangana, operating across trading, logistics, transportation, commercial opportunities and strategic partnerships.',
+    'Maaruthi Commercial Corporation (MCC) is a diversified commercial enterprise from Miryalaguda, Telangana, operating across trading, logistics, transportation, commercial opportunities and strategic partnerships.',
 
-  applicationName: 'Maruthi Commercial Corporation',
+  applicationName: 'Maaruthi Commercial Corporation',
 
   generator: 'v0.app',
 
   keywords: [
-    'Maruthi Commercial Corporation',
+    'Maaruthi Commercial Corporation',
     'MCC',
-    'Maruthi Commercial',
+    'Maaruthi Commercial',
     'Miryalaguda',
     'Telangana',
     'commercial enterprise',
@@ -52,8 +52,8 @@ export const metadata: Metadata = {
   ],
 
   authors: [{ name: 'Maruthi Commercial Corporation' }],
-  creator: 'Maruthi Commercial Corporation',
-  publisher: 'Maruthi Commercial Corporation',
+  creator: 'Maaruthi Commercial Corporation',
+  publisher: 'Maaruthi Commercial Corporation',
 
   alternates: {
     canonical: '/',
@@ -83,11 +83,11 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: 'Maruthi Commercial Corporation | MCC',
+    title: 'Maaruthi Commercial Corporation | MCC',
     description:
       'Building Connections. Moving Opportunities. A diversified commercial enterprise from Miryalaguda, Telangana, operating across trading, logistics, transportation and commercial ventures.',
     url: SITE_URL,
-    siteName: 'Maruthi Commercial Corporation',
+    siteName: 'Maaruthi Commercial Corporation',
     locale: 'en_IN',
     type: 'website',
 
@@ -96,14 +96,14 @@ export const metadata: Metadata = {
         url: '/icon.png',
         width: 1024,
         height: 1024,
-        alt: 'Maruthi Commercial Corporation logo',
+        alt: 'Maaruthi Commercial Corporation logo',
       },
     ],
   },
 
   twitter: {
     card: 'summary',
-    title: 'Maruthi Commercial Corporation | MCC',
+    title: 'Maaruthi Commercial Corporation | MCC',
     description:
       'Building Connections. Moving Opportunities. A diversified commercial enterprise from Miryalaguda, Telangana, operating across trading, logistics, transportation and commercial ventures.',
     images: ['/icon.png'],
@@ -123,14 +123,14 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
 
-  name: 'Maruthi Commercial Corporation',
+  name: 'Maaruthi Commercial Corporation',
   alternateName: 'MCC',
   url: SITE_URL,
   logo: `${SITE_URL}/icon.png`,
   slogan: 'Building Connections. Moving Opportunities.',
 
   description:
-    'Maruthi Commercial Corporation is a diversified commercial enterprise operating across trading, logistics, transportation, commercial opportunities and strategic partnerships.',
+    'Maaruthi Commercial Corporation is a diversified commercial enterprise operating across trading, logistics, transportation, commercial opportunities and strategic partnerships.',
 
   address: {
     '@type': 'PostalAddress',
