@@ -39,7 +39,7 @@ export function SiteFooter() {
 
         <div className="mt-12 flex flex-col gap-4 border-t border-border pt-8 text-sm text-steel sm:flex-row sm:items-center sm:justify-between">
           <p>
-            &copy; {new Date().getFullYear()} Maruthi Commercial Corporation.
+            &copy; {new Date().getFullYear()} Maaruthi Commercial Corporation.
             All rights reserved.
           </p>
 
