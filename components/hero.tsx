@@ -55,7 +55,7 @@ export function Hero() {
 
           <Reveal delay={180}>
             <p className="mt-12 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
-              Maruthi Commercial Corporation is a diversified commercial
+              Maaruthi Commercial Corporation is a diversified commercial
               enterprise built on trust, market insight and relationships —
               connecting people, products and opportunities across trading,
               logistics, transportation and diverse commercial sectors.
