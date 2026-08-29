@@ -39,7 +39,7 @@ export function SiteNav() {
         <a
           href="#home"
           className="flex items-center"
-          aria-label="Maruthi Commercial Corporation — home"
+          aria-label="Maaruthi Commercial Corporation — home"
         >
           <MccLogo
             priority
