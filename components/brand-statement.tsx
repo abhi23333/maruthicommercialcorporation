@@ -21,7 +21,7 @@ export function BrandStatement() {
           <div className="mt-10 flex items-center gap-5">
             <span className="h-1 w-16 rounded-full bg-gradient-to-r from-mcc-red to-mcc-blue" />
             <p className="text-xs font-bold uppercase tracking-[0.28em] text-white/60">
-              Maruthi Commercial Corporation
+              Maaruthi Commercial Corporation
             </p>
           </div>
         </Reveal>
