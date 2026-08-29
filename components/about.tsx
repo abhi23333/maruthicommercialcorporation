@@ -24,7 +24,7 @@ export function About() {
             <Reveal delay={120}>
               <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
                 <p>
-                  Maruthi Commercial Corporation (MCC) is a diversified
+                  Maaruthi Commercial Corporation (MCC) is a diversified
                   commercial enterprise rooted in Miryalaguda, Telangana. We
                   operate at the meeting point of requirement and opportunity —
                   identifying where value can be created and bringing the right
