@@ -40,16 +40,9 @@ export function JointStatement() {
         </Reveal>
         <Reveal delay={220}>
           <div className="mt-12 flex flex-col items-center gap-4">
-            <div className="flex flex-wrap items-center justify-center gap-3 text-base font-semibold tracking-wide text-white/85">
-              <span>Kukkadapu Maruthi</span>
-              <span className="text-mcc-red" aria-hidden>
-                &times;
-              </span>
-              <span>Kukkadapu Abhivadan</span>
-            </div>
             <span className="h-1 w-16 rounded-full bg-gradient-to-r from-mcc-red to-mcc-blue" />
             <p className="text-xs font-bold uppercase tracking-[0.28em] text-white/50">
-              Maruthi Commercial Corporation
+              Maaruthi Commercial Corporation
             </p>
           </div>
         </Reveal>
