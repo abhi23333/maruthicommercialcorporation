@@ -14,7 +14,7 @@ export function MccLogo({
   return (
     <Image
       src="/mcc-logo.jpeg"
-      alt="Maruthi Commercial Corporation logo"
+      alt="Maaruthi Commercial Corporation logo"
       width={width}
       height={height}
       priority={priority}
